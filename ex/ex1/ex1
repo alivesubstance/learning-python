@@ -1,0 +1,10 @@
+d = {'x': 1, 'y': 2, 'z':3}
+
+d['w'] = 0
+print d['x']+d['w']
+d[(1,2,3)]=4
+print d
+
+print list(d.keys()), list(d.values()), (1,2,3) in d
+
+print [[]], ["", [], (), {}, None]
